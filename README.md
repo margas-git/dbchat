@@ -6,6 +6,8 @@ Transform your database into an intelligent conversational partner. Ask question
 
 DBChat is a bridge that connects any MCP client like Claude Desktop, Gemini-CLI, etc to your database, enabling natural language database interactions. Instead of writing SQL queries, simply ask the chatbot questions about your data and get instant, intelligent responses.
 
+If you want a guided product tour, see [TUTORIAL.md](TUTORIAL.md). If you want to focus on charts and visual output, see [VISUALIZATION.md](VISUALIZATION.md).
+
 **Before DBChat:**
 ```sql
 SELECT c.name, COUNT(o.id) as order_count, SUM(o.total) as revenue 
@@ -148,6 +150,8 @@ Download the latest release from [GitHub Releases](https://github.com/skanga/dbc
 - [dbchat-4.2.1-all.jar](https://github.com/skanga/dbchat/releases/download/v4.2.1/dbchat-4.2.1-all.jar) - All databases included (400MB+)
 
 In the examples below, replace `<variant>` with the jar you downloaded, such as `basic`, `standard`, `enterprise`, `cloud-analytics`, or `all`.
+
+For a hands-on walkthrough after setup, see [TUTORIAL.md](TUTORIAL.md). For visualization-focused usage patterns, see [VISUALIZATION.md](VISUALIZATION.md).
 
 NOTE: Advanced users can also build a custom jar with only the drivers you need. See [INSTALL.md](INSTALL.md) for details.
 
