@@ -6920,7 +6920,7 @@ const data2024 = [694.93,1214.92,1114.95,1769.90,1079.92,1424.93,1084.93,1394.93
 new Chart(document.getElementById('yoyChart'), {
   type: 'line',
   data: {
-    labels: months,
+    labels: monthsOfYear,
     datasets: [
       {
         label: '2024',
@@ -9330,7 +9330,7 @@ const rawdata = {
 new Chart(document.getElementById('attrChart'), {
   type: 'bar',
   data: {
-    labels: months,
+    labels: monthsOfYear,
     datasets: [
       {
         label: '2023 Cancelled',
@@ -9377,7 +9377,7 @@ new Chart(document.getElementById('attrChart'), {
       legend: { display: false },
       tooltip: {
         callbacks: {
-          title: (items) => months[items[0].dataIndex],
+          title: (items) => monthsOfYear[items[0].dataIndex],
           label: (ctx) => {
             if (!ctx.parsed.y) return null;
             return ' ' + ctx.dataset.label + ': ' + ctx.parsed.y.toFixed(1) + '%';
