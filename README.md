@@ -6,7 +6,7 @@ Transform your database into an intelligent conversational partner. Ask question
 
 DBChat is a bridge that connects any MCP client like Claude Desktop, Gemini-CLI, etc to your database, enabling natural language database interactions. Instead of writing SQL queries, simply ask the chatbot questions about your data and get instant, intelligent responses.
 
-If you want a guided product tour, see [TUTORIAL.md](TUTORIAL.md). But if you only want to see the results of a sample TUTORIAL run then see [TUTORIAL-DEMO.html]([TUTORIAL-DEMO.html](http://htmlpreview.github.io/?https://github.com/skanga/DBchat/blob/main/TUTORIAL-DEMO.html)). 
+If you want a guided product tour, see [TUTORIAL.md](TUTORIAL.md). But if you only want to see the results of a sample TUTORIAL run then see [TUTORIAL-DEMO.html](http://htmlpreview.github.io/?https://github.com/skanga/DBchat/blob/main/TUTORIAL-DEMO.html).
 
 If you want to focus on charts and visual output, see [VISUALIZATION.md](VISUALIZATION.md).
 
